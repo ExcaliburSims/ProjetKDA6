@@ -1,5 +1,5 @@
-var dit=document.querySelector('.stitr1');
-var bouton=document.querySelector('#btn1');
+var dit=document.querySelector('.firsttile');
+var bouton=document.querySelector('#buttoncreer');
 bouton.addEventListener('click',maFonction);
 
 function maFonction() {

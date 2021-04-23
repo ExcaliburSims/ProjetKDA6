@@ -17,21 +17,21 @@ body{
     color: white;
     text-align: center;
 }
-.blocgen{
+.container{
     width: 100%;
     height: 100%;
     color: #2f80ed;
     display: flex;
     flex-direction: row;
 }
-.bloc1{
+.form{
     width: 350px;
     height: 700px;
     background-color: #f7f7f7;
     border: 1px solid black;
     margin-left: 400px;
 }
-.stitr1{
+.firsttitle{
     background-color: #2f80ed;
     color: white;
     border: 1px solid #2f80ed;
@@ -65,34 +65,34 @@ textarea{
 input:focus,select:focus,textarea:focus{
     outline: none;
 }
-.btncr,.btnre{
+.buttoncreate,.buttonreinit{
     width: 150px;
     height: 50px;
     font-size: 20px;
     color: white;
     border-radius: 5px;
 }
-.btngr{
+.buttongroup{
     margin-top: 10px;
 }
-.btncr{
+.buttoncreer{
     background-color: #2f80ed;
     border: 1px solid #2f80ed;
 }
-.btnre{
+.buttonreinit{
     background-color: #eb5757;
     border: 1px solid #eb5757;
     margin-left: 30px;
 }
-
+/* 
 .bloc2{
     width: 500px;
     height: 700px;
     background-color: #f7f7f7;
     border: 1px solid black;
     margin-left: 10px;
-}
-.stitr2{
+} */
+.secondtitle{
     background-color: #2f80ed;
     color: white;
     border: 1px solid #2f80ed;
