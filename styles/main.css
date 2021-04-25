@@ -1,14 +1,11 @@
 @font-face {
-    font-family: 'Arial';
-    src: url('../Fonts/arial.ttf');
+    font-family: 'Raleway';
+    src: url('../Fonts/Raleway/static/Raleway-ExtraBold.ttf');
 }
-body{
-     background-color: #ffffff;
-     margin-top: 0px;
-     margin-left: 0px;
-    font-family: Arial;
+ body{
+    font-family: Raleway;
  }
-#titre{
+/* #titre{
     background-color: #2f80ed;
     margin-top: 0px;
     margin-bottom: 40px;
@@ -92,9 +89,10 @@ input:focus,select:focus,textarea:focus{
     border: 1px solid black;
     margin-left: 10px;
 } */
-.secondtitle{
+/*.secondtitle{
     background-color: #2f80ed;
     color: white;
     border: 1px solid #2f80ed;
     width: 100%;
 }
+ */

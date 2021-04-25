@@ -1,59 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Dom</title>
-    <!-- <link rel="stylesheet" href="./styles/style1.css" /> -->
-    <link rel="stylesheet" href="styles/bulma.min.css">
-    <link rel="stylesheet" href="./styles/reset.css">
-  </head>
-  <body>
-    <div id="titre">
-      <h1>Répertoire de contact</h1>
-    </div>
-    <div class="container">
-      <div class="form">
-        <div>
-          <div class="firsttitle">
-            <h2>Formulaire de contact</h2>
-          </div>
-          <form>
-            <div>
-              <input type="text" id="lastname" placeholder="Prénom"/>
-            </div>
-            <div>
-              <input type="text" id="firstname" placeholder="Nom"/>
-            </div>
-            <div>
-              <select id="selection">
-                <option>Groupe</option>
-                <option>Groupe1</option>
-                <option>Groupe2</option>
-                <option>Groupe3</option>
-                <option>Groupe4</option>
-                <option>Groupe5</option>
-              </select>
-            </div>
-            <div>
-              <textarea id="texte" placeholder="Biographie"></textarea>
-            </div>
-            <div>
-              <button id="buttonchoice">Choisir un fichier</button>
-            </div>
-            <div class="buttongroup">
-              <button id="buttoncreer" class="buttoncreer">Créer</button>
-              <button id="buttonreinit" class="buttonreinit">Réinit.</button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="container">
-        <div class="secondtitle">
-          <h2>Liste de contact</h2>
-        </div>
-        <div class="affichage"></div>
-      </div>
-    </div>
-    <script src="./scripts/script1.js"></script>
-  </body>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Dom</title>
+		<!--  -->
+		<link rel="stylesheet" href="styles/bulma.min.css" />
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="stylesheet" href="./styles/main.css" />
+	</head>
+	<body>
+		<div id="hero columns">
+			<div class="column is-12 hero-body has-background-info">
+				<div class="container">
+					<h1 class="title is-1">Répertoire de contact</h1>
+				</div>
+			</div>
+		</div>
+		<div class="block">
+			<div class="container">
+				<div class="columns">
+					<div class="column box">
+						<div class="block">
+							<div class="hero-body has-background-info">
+								<h2 class="title is-3 has-text-centered">
+									Formulaire de contact
+								</h2>
+							</div>
+						</div>
+						<div class="block">
+							<form class="field">
+								<div class="control">
+									<input type="text" id="lastname" placeholder="Prénom" class="input" />
+								</div><br>
+								<div class="control">
+									<input type="text" id="firstname" placeholder="Nom" class="input" />
+								</div><br>
+								<div class="control">
+									<select id="selection" class="select is-medium">
+										<option>Groupe</option>
+										<option>Groupe1</option>
+										<option>Groupe2</option>
+										<option>Groupe3</option>
+										<option>Groupe4</option>
+										<option>Groupe5</option>
+									</select>
+								</div><br>
+								<div class="control">
+									<textarea id="texte" placeholder="Biographie" class="textarea"></textarea>
+								</div><br>
+								<div class="file">
+									<input type="file" class="" >
+								</div>
+								<br>
+								<div class="control">
+									<button id="buttoncreer" class="button is-info is-small">
+										Créer
+									</button>
+									<button id="buttonreinit" class="button is-danger is-small">
+										Réinit.
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="column box">
+						<div class="hero">
+							<div class="hero-body has-background-info">
+								<h2 class="title is-3 has-text-centered">Liste de contact</h2>
+							</div>
+						</div>
+						<div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./scripts/script1.js"></script>
+	</body>
 </html>
