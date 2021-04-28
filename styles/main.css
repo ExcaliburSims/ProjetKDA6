@@ -81,18 +81,17 @@ input:focus,select:focus,textarea:focus{
     border: 1px solid #eb5757;
     margin-left: 30px;
 }
-/* 
+
 .bloc2{
     width: 500px;
     height: 700px;
     background-color: #f7f7f7;
     border: 1px solid black;
     margin-left: 10px;
-} */
-/*.secondtitle{
+}
+.secondtitle{
     background-color: #2f80ed;
     color: white;
     border: 1px solid #2f80ed;
     width: 100%;
 }
- */
